@@ -1,0 +1,63 @@
+.main-box {
+    width: 35%;
+    height: 15vh;
+    border: 1px dashed black;
+    display: flex;
+
+    .left-box {
+        width: 50%;
+        height: 15vh;
+        display: flex;
+        position: relative;
+
+        .box-one {
+            width: 49%;
+            height: 15vh;
+            background-color: red;
+        }
+
+        .box-two {
+            position: absolute;
+            left: 165px;
+            top: 40px;
+            width: 49%;
+            height: 15vh;
+            background-color: green;
+        }
+
+    }
+
+
+    .right-box {
+        width: 50%;
+        height: 15vh;
+        display: flex;
+        column-gap: 5px;
+
+        .box-three {
+            width: 49%;
+            height: 15vh;
+            background-color: red;
+        }
+
+        .box-four {
+            width: 49%;
+            height: 15vh;
+            background-color: red;
+        }
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+}
